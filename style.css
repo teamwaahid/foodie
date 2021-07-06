@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* Foodie Hero Section */
+.foodie-section{
+    display: flex;
+    padding-top: 50px;
+}
+.hero-section{
+    width: 50%;
+}
+.hero-img{
+    width: 100%;
+    height: 500px;
+}
+.fancy-text{
+    color: rgb(58, 58, 226);
+}
+h1{
+    font-size: 55px;
+}
+#hero-text{
+    padding: 60px 40px 0 100px;
+}
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightblue, blue);
+    padding: 20px 50px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+/* Foodie About Section */
+#foodie-about{
+    background-image: url(images/Frame57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+}
+.about-image{
+    text-align: center;
+}
+.about-foodie{
+    margin: 100px 160px 0 0;
+}
+
+/* Foodie Explore Food Section */
+.explore{
+    margin: 120px 0;
+}
+.explore-heading{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.explore-food-item{
+    display: flex;
+    width: 100%;
+}
+.food-item{
+    width: 20%;
+    padding: 50px;
+    margin: 3%;
+    box-shadow: 0 0 25px 5px #888888ab;
+    border-radius: 30px;
+}
+.food-item img{
+    width: 250px;
+    border-radius: 30px;
+}
+
+/* Frequently Asked Section */
+.faq{
+    margin: 120px 0;
+}
+.faq-section{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.faq-question-section{
+    display: flex;
+}
+.faq-question-sidebar{
+    width: 50%;
+    padding: 0 80px;
+}
+.questions{
+    margin-bottom: 50px;
+}
+
+.newsletter{
+    margin-top: 100px;
+}
+.newsletter-section{
+    text-align: center;
+    background-color: lightblue;
+    padding: 60px 0 100px 0;
+}
+.input-mail{
+    padding: 20px 100px;
+    font-size: 18px;
+    border: 3px solid rgb(109, 109, 226);
+    border-radius: 5px;
+}
+.input-button{
+    margin-left: 50px;
+    text-decoration: none;
+    background-image: linear-gradient(lightblue, blue);
+    padding: 25px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* Foodie Footer Section */
+.footer{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 40px 0;
+}
