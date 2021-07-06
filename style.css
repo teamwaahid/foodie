@@ -119,6 +119,7 @@ h1{
 /* Foodie Footer Section */
 .footer{
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(75, 73, 73);
     padding: 40px 0;
+    color: whitesmoke;
 }
